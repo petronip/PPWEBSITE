@@ -34,12 +34,8 @@ table td {
     }
 } 
 body {
-    -webkit-animation: bgcolor 20s infinite;
-    animation: bgcolor 10s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
 	text-align: center;
-	background-image: url("https://raw.githubusercontent.com/petronip/PPWEBSITE/master/logo.jpg");
+	background-image: url("logo.jpg");
   
 })
 }
