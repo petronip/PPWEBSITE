@@ -35,7 +35,10 @@ table td {
 } 
 body {
 	text-align: center;
-	background-image: url("logo.jpg");
+    background-image: url("https://raw.githubusercontent.com/petronip/PPWEBSITE/master/logo.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+}
   
 })
 }
