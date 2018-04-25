@@ -1,6 +1,7 @@
-h1 {
-	text-align: center;
-	
+body {
+background-image: url("https://raw.githubusercontent.com/petronip/PPWEBSITE/master/logo.jpg");
+background-repeat:no-repeat;
+background-position: 50% 50%;
 }
 
 table td {
@@ -42,20 +43,12 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-body {
-background-image: url("https://raw.githubusercontent.com/petronip/PPWEBSITE/master/logo.jpg");
-background-repeat:no-repeat;
-background-position: 50% 50%;
-}
-
 h3{
 	text-align: center;
 }
-  
 
-
-
-img {
-height: 50px;
-width: 50px;
+img{
+	height: 250px;
+	width: 250px;
 }
+  
