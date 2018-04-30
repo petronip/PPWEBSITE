@@ -10,6 +10,23 @@ table td {
 }
 
 
+body {
+  background: linear-gradient(to right, DodgerBlue,DeepSkyBlue);
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+}
+
+.boeing {
+	border: 1px solid black;
+	background-color: CadetBlue;
+}
+
+.bombardier{
+  border: 1px solid black;
+	background-color: Cyan;
+}
+
+
 div {
     width: 100%;
     background-color: powderblue;
