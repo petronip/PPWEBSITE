@@ -2,12 +2,12 @@ h1 {
 	text-align: center;
 	
 }
-
+/* Centers the header text */
 table td {
 	border: 1px solid black;
 	background-color: CadetBlue;
 }
-
+/* Table color and line */
 
 div {
     width: 100%;
@@ -21,11 +21,11 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
+/* The Navigation par properties */
 li {
     float: left;
 }
-
+/* Placement of the text in the nav bar */
 li a {
     display: block;
     color: white;
@@ -34,6 +34,7 @@ li a {
     text-decoration: none;
 }
 
+/* Properties of the Nav bar */
 li a:hover:not(.active) {
     background-color: #111;
 }
@@ -47,11 +48,12 @@ background-image: url("https://raw.githubusercontent.com/petronip/PPWEBSITE/mast
 background-repeat:no-repeat;
 background-position: 50% 50%;
 }
-
+/* Background properties */
 h3{
 	text-align: center;
 }
   
+/* H3 properties */
 
 
 
@@ -59,3 +61,5 @@ img {
 height: 50px;
 width: 50px;
 }
+
+/* Image properties */

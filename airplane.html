@@ -1,10 +1,13 @@
 <!doctype html>
-
+<!-- Beginning of HTML--->
 <html>
 
 <head>
 <title>Airplane Database</title> 
+
+<!-- Title of Page --->
 <link href="airplane.css" type="text/css" rel="stylesheet">
+<!-- CSS linked page --->
 </head>
 
 <body>
@@ -17,11 +20,17 @@
 		<li><a href="airplane.html">Airplane Database</a></li>
 		<li><a href="contact.html">Contact</a></li>
 		<li><a href="about.html">About</a></li>
+		<li><a href="JavaScript.html">JavaScript</a></li>
+		<!-- Navigation bar and its linked pages --->
 	</ul>
 </div>
- <h3>Boeing</h3>
-<div class = "boeing">	
-<table style="width:100%">
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+<!-- Search bar --->
+<table>	
+<table id= "myTable" style="width:100%">
+
+<!-- Width of the Table --->
   <tr>
     <th>Airplane</th>
     <th>Picture</th> 
@@ -112,19 +121,9 @@
     <td>The Boeing 787 Dreamliner is an American long-haul, mid-size widebody, twin-engine jet airliner made by Boeing Commercial Airplanes. Its variants seat 242 to 335 passengers in typical three-class seating configurations. It is the first airliner with an airframe constructed primarily of composite materials. The 787 was designed to be 20% more fuel efficient than the Boeing 767, which it was intended to replace. The 787 Dreamliner's distinguishing features include mostly electrical flight systems, raked wingtips, and noise-reducing chevrons on its engine nacelles. It shares a common type rating with the larger Boeing 777 to allow qualified pilots to operate both models.</td>
     <td>670</td>
   </tr>
-</table> 
-</div>
-<h3>Bomarbier</h3>
-<div class = "bombardier">
-<table> 
-<tr>
-    <th>Airplane</th>
-    <th>Picture</th> 
-    <th>Description</th>
-	<th>Number Built</th>
-  </tr>
+
   <tr>
-    <td>Bomarbier Crj100/200</td>
+    <td>Bombarbier Crj100/200</td>
     <td><img src = https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Canadair_CL-600-2B19_Regional_Jet_CRJ-200ER%2C_Delta_Connection_%28ASA_-_Atlantic_Southeast_Airlines%29_AN0779703.jpg/800px-Canadair_CL-600-2B19_Regional_Jet_CRJ-200ER%2C_Delta_Connection_%28ASA_-_Atlantic_Southeast_Airlines%29_AN0779703.jpg></td>
     <td>The Bombardier CRJ100 and CRJ200 (formerly known as the Canadair CRJ100 and CRJ200) are a family of regional airliners designed and manufactured by Bombardier. The CRJ had the distinction of marking Canada's entry into the civil jet industry.It was based on the Canadair Challenger business jet. An initial effort to produce an enlarged 36-seat version of the aircraft, known as the Challenger 610E, was terminated during 1981. Shortly after Canadair's privatisation and sale to Bombardier, work on a stretched derivative was reinvigorated; during early 1989, the Canadair Regional Jet program was formally launched. On 10 May 1991, the first of three CRJ100 prototypes conducted its maiden flight. The type first entered service during the following year with its launch customer, German airline Lufthansa.</td>
 	  <td> 1021 </td>
@@ -141,18 +140,7 @@
 	<td> The Bombardier CSeries or C Series is a family of narrow-body, twin-engine, medium-range jet airliners originally designed by Canadian manufacturer Bombardier Aerospace. The 108 to 133-seat CS100 (officially BD-500-1A10[7]) made its maiden flight on 16 September 2013, was awarded an initial type certification by Transport Canada on 18 December 2015 and entered service on 15 July 2016 with Swiss Global Air Lines. The 130 to 160-seat CS300 (officially BD-500-1A11[7]) first flew on 27 February 2015, received an initial type certification on 11 July 2016, and entered service with launch customer airBaltic on 14 December 2016. Service entry saw 21% lower fuel burn for the CS300 replacing the 32-year-old B737-300s, with a dependability above 99.3%, and 25% lower costs than the RJ100 for the CS100, while the passengers' and pilots' feedback is positive for the cabin and flight controls.</td>
 	<td> 24 </td>
   </tr>
-</table>
-</div>
 
-<h3>Airbus</h3>
-<div class = "airbus">
-<table>
-  <tr>
-	<th>Airplane</th>
-	<th>Picture</th> 
-	<th>Description</th>
-	<th>Number Built</th>
-  </tr>
   <tr>
 	<td>Airbus 300</td>
 	<td><img src = https://upload.wikimedia.org/wikipedia/commons/9/91/Air_France_Airbus_A300B2_1974_Fitzgerald.jpg></td> 
@@ -189,19 +177,7 @@
 	<td> The first derivative of the A320 was the Airbus A321, also known as the Stretched A320, A320-500 and A325.[48][49] Its launch came on 24 November 1988 after commitments for 183 aircraft from 10 customers were secured.[48][50] The aircraft would be a minimum-changed derivative, apart from a number of minor modifications to the wing, and the fuselage stretch itself. The wing would incorporate double-slotted flaps and minor trailing edge modifications,[51] increasing the wing area from 124 m2 (1,330 sq ft) to 128 m2 (1,380 sq ft).[52] The fuselage was lengthened by four plugs (two ahead and two behind the wings), giving the A321 an overall length of 6.94 metres (22 ft 9 in) longer than the A320.[51][53][54] The length increase required the overwing exits of the A320 to be enlarged and repositioned in front of and behind the wings.[55] The centre fuselage and undercarriage were reinforced to accommodate the increase in maximum takeoff weight of 9,600 kg (21,200 lb), taking it to 83,000 kg (183,000 lb).[51]</td>
 	<td> 1800 </td>
   </tr>
-</table>
-</div>
 
-<h3>Embraer</h3> 
-
-<div class = embraer>
-<table>
- <tr>
-    <th>Airplane</th>
-    <th>Picture</th> 
-    <th>Description</th>
-	<th>Number Built</th>
-  </tr>
   <tr>
   <td>Embraer Erj 135/140/145</td>
   <td><img src = https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Embraer_EMB-145LR_%28ERJ-145LR%29%2C_American_Eagle_AN0969536.jpg/800px-Embraer_EMB-145LR_%28ERJ-145LR%29%2C_American_Eagle_AN0969536.jpg></td>
@@ -220,19 +196,9 @@
   <td>The Embraer E-Jet E2 family are medium-range jet airliners developed by Embraer, succeeding the original E-Jet. The program was launched at the Paris Air Show in 2013. The first variant, the E190-E2 took its first flight on 23 May 2016 and was certified on February 28, 2018 before entering service with Widerøe on 24 April. The three twinjet variants share the same four-abreast narrow-body fuselage with different lengths and three different new wings, Pratt & Whitney PW1000G turbofans in two sizes, fly-by-wire controls with new avionics, and an updated cabin.</td>
   <td>2</td>
   </tr>
-</table>
-</div> 	
 
-<h3> McDonnell Douglas</h3>
-<div class = douglas>
+<td><h3> McDonnell Douglas</h3></td>
   
-<table>
- <tr>
-	<th>Airplane</th>
-	<th>Picture</th> 
-	<th>Description</th>
-	<th>Number Built</th>
-</tr>
   <tr>
     <td>Douglas DC-8</td>
     <td><img src = https://upload.wikimedia.org/wikipedia/commons/6/6b/Air_Canada_Douglas_DC-8.jpg></td>
@@ -263,10 +229,30 @@
     <td>The McDonnell Douglas MD-80 is a series of twin-engine, short- to medium-range, single-aisle commercial jet airliners. It was lengthened and updated from the DC-9. This series can seat from 130 to 172 passengers depending on variant and seating configuration. The MD-80 series was introduced into commercial service on October 10, 1980 by Swissair. The series includes the MD-81, MD-82, MD-83, MD-87, and MD-88. These all have the same fuselage length except the shortened MD-87. The series was followed into service in modified form by the MD-90 in 1995 and the Boeing 717 (originally MD-95) in 1999.</td>
     <td>1191</td>
   </tr>
-</table>  
   
-</div>
-
+  <!-- There are many types of planes that are orderd by model and by manufacterer --->
+</table>
+  
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<!-- Javascript function enables the user to type whatever he wants and it will filter it out -->
 </body>
 
 </html>
