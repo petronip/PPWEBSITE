@@ -9,11 +9,6 @@ table td {
 }
 /* Table color and line */
 
-div {
-    width: 100%;
-    background-color: powderblue;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
